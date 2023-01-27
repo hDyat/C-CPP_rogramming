@@ -19,12 +19,17 @@ void solve (vector<string> v, int n)
     { 
         cin >> str;
         int w = 0;
+        //calculate the value of each letter
         for (int j = 0; j < str.length(); j++)
         {
             w += (str[j] - 'A') + 1;
         }
+        
+        //find the index of string in vector
         auto it = find(v.begin(), v.end(), str);
         int index = it - v.begin() + 1;
+        
+        //output the result
         cout << index * w << "\n";
     }
 }
