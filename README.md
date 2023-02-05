@@ -1,1 +1,1 @@
-# Prolem solving in C and CPP Programming
+# Problem solving in C and CPP Programming
